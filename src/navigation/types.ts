@@ -1,12 +1,12 @@
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
+import { TutosHooks } from "../types/tutosHooks";
 import { Navigation } from "./Navigation";
 
 export type AppStackNavigatorParamList = {
     [Navigation.Home] : undefined,
     [Navigation.Playground] : {
-        playgroundName: string
+        playgroundName: TutosHooks
     },
-    [Navigation.PlaygroundUseEffect] : undefined,
 };
 
 export type HomeStackScreenProps = NativeStackScreenProps<
