@@ -29,7 +29,7 @@ export const ContextExample : React.VFC = () => {
 
     return (
         <>
-            <MyTitle label={'useContext Example'} />
+            <MyTitle label={'useContext'} />
             <FormInput setName={setName}/>
             <FormInputResult name={name}/>
         </>

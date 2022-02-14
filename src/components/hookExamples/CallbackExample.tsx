@@ -25,7 +25,7 @@ export const CallbackExample : React.VFC = () => {
 
     return (
         <>
-            <MyTitle label={'useCallback Example'} />
+            <MyTitle label={'useCallback'} />
             <Switch
                 onValueChange={() => setIsEnabled(!isEnabled)}
                 value={isEnabled}
